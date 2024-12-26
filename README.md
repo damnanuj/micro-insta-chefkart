@@ -60,7 +60,7 @@
 ```
 
 ### 3. Create Post API
-**POST** `/api/users/create`
+**POST** `/api/posts/create`
 
 **Description**: Create a new post with title, description, and images.
 
