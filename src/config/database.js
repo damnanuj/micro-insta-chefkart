@@ -3,18 +3,15 @@ import dotenv from "dotenv";
 dotenv.config();
 
 // >>===========PostGreSql DataBase connection =============>>
-const sequelize = new Sequelize(
-  process.env.DB_NAME,
-  process.env.DB_USER,
-  process.env.DB_PASSWORD,
-  {
-    host: "localhost",
-    dialect: "postgres",
-    define: {
-      underscored: true,
-    },
-  }
-);
+const sequelize = new Sequelize(process.env.DATABASE_URL, {
+  dialect: "postgres",
+  dialectOptions: {
+    ssl: { require: true, rejectUnauthorized: false },
+  },
+  define: {
+    underscored: true,
+  },
+});
 
 const connection = async () => {
   try {
