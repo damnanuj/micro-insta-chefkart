@@ -29,6 +29,10 @@ connection();
 app.use("/api/users", userRoutes);
 app.use("/api/posts", postRoutes);
 
+app.get("/", (req, res) =>{
+  res.send("micro_instagram Home Route")
+})
+
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
