@@ -36,12 +36,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8000/api/posts",
-					"protocol": "http",
+					"raw": "https://micro-insta-chefkart.onrender.com/api/posts",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"micro-insta-chefkart",
+						"onrender",
+						"com"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"posts"
@@ -80,12 +81,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8000/api/users",
-					"protocol": "http",
+					"raw": "https://micro-insta-chefkart.onrender.com/api/users",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"micro-insta-chefkart",
+						"onrender",
+						"com"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"users"
@@ -125,12 +127,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8000/api/posts/create",
-					"protocol": "http",
+					"raw": "https://micro-insta-chefkart.onrender.com/api/posts/create",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"micro-insta-chefkart",
+						"onrender",
+						"com"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"posts",
@@ -163,7 +166,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": " {\n    \"name\": \"Anuj\",\n    \"mobile_number\": \"8007004205\",\n    \"address\": \"Shimla, Himachal Pradesh, India\"\n  }",
+					"raw": " {\n    \"name\": \"Anuj\",\n    \"mobile_number\": \"80070424205\",\n    \"address\": \"Shimla, Himachal Pradesh, India\"\n  }",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -171,12 +174,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8000/api/users/create",
-					"protocol": "http",
+					"raw": "https://micro-insta-chefkart.onrender.com/api/users/create",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"micro-insta-chefkart",
+						"onrender",
+						"com"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"users",
@@ -217,12 +221,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8000/api/posts/1",
-					"protocol": "http",
+					"raw": "https://micro-insta-chefkart.onrender.com/api/posts/1",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"micro-insta-chefkart",
+						"onrender",
+						"com"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"posts",
@@ -263,12 +268,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8000/api/posts/2/5",
-					"protocol": "http",
+					"raw": "https://micro-insta-chefkart.onrender.com/api/posts/2/5",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"micro-insta-chefkart",
+						"onrender",
+						"com"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"posts",
@@ -302,7 +308,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "\r\n{\r\n  \"title\": \"This is edit 2\",\r\n  \"description\": \"post edit api check 2\",\r\n  \"images\": [\r\n    \"https://img.freepik.com/free-photo/lone-tree_181624-46361.jpg\"\r\n  ]\r\n}\r\n",
+					"raw": "\r\n{\r\n  \"title\": \"This is edit check\",\r\n  \"description\": \"post edit api check 2\",\r\n  \"images\": [\r\n    \"https://img.freepik.com/free-photo/lone-tree_181624-46361.jpg\"\r\n  ]\r\n}\r\n",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -310,17 +316,18 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8000/api/posts/3/8",
-					"protocol": "http",
+					"raw": "https://micro-insta-chefkart.onrender.com/api/posts/1/4",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"micro-insta-chefkart",
+						"onrender",
+						"com"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"posts",
-						"3",
-						"8"
+						"1",
+						"4"
 					]
 				},
 				"description": "This is a DELETE request, and it is used to delete data that was previously created via a POST request. You typically identify the entity being updated by including an identifier in the URL (eg. `id=1`).\n\nA successful DELETE request typically returns a `200 OK`, `202 Accepted`, or `204 No Content` response code."
